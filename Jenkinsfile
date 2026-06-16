@@ -3,7 +3,7 @@
     stages {
         stage('build'){
          steps{
-               sh 'echo "a=80"> demo1.py'
+               sh 'echo "print('a')> demo1.py'
          }
         }
         stage('test'){
